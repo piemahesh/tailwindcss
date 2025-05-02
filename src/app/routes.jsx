@@ -1,6 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
-import { Homepage } from "../page/Homepage";
+import { AuthScreen } from "../feature/auth/page/AuthScreen";
 
 export const routes = createBrowserRouter([
-  { path: "/", element: <Homepage /> },
+  { path: "/", element: <AuthScreen /> },
 ]);
